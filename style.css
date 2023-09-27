@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass';
+
+}
+
+body,
+html {
+    background-color: #141519;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-principal {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 320px;
+    height: 400px;
+    padding: 25px;
+    border: 1px solid;
+    border-radius: 15px;
+    margin: auto;
+    background-color: #1e252f;
+}
+
+.container-principal header {
+    background-color: #262e39;
+    display: flex;
+
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+header img {
+    width: 15px;
+    height: 15px;
+}
+
+h1 {
+    margin-top: 20px;
+    color: white;
+}
+
+p {
+    margin-top: 20px;
+    color: #585f69;
+    font-size: 15px;
+}
+
+.container-numeros {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-numeros div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    background-color: #262e39;
+    color: #8f96a0;
+
+
+}
+
+
+
+.bt-hover:hover {
+    cursor: pointer;
+    background-color:#bec4ca; 
+}
+
+.botao-submit {
+    background-color: #fc7613;
+    color: white;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.botao-submit:hover {
+    background-color: white;
+    color: #fc7613;
+}
+
+/* container dois */
+.container-2 {
+    display: none;
+    flex-direction: column;
+    align-content: center;
+    width: 320px;
+    height: 400px;
+    padding: 25px;
+    border: 1px solid;
+    border-radius: 15px;
+    margin: auto;
+    background-color: #1e252f;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-2 img {
+    height: 120px;
+    width: 120px;
+}
+
+.container-2 div {
+    background-color: #262f38;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    height: 30px;
+    width: 160px;
+    color: #fc7613;
+}
+
+.container-2 p {
+    text-align: center;
+    font-size: 13px;
+}
+
